@@ -142,7 +142,6 @@ class HBNBCommand(cmd.Cmd):
                 value = int(value)
             setattr(new_instance, key, value)
 
-#        print(f"{type(new_instance)} / {new_instance}")
         print(new_instance.id)
         new_instance.save()
 
